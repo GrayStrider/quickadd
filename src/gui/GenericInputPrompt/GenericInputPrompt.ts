@@ -157,7 +157,7 @@ export default class GenericInputPrompt extends Modal {
 		super.onOpen();
 
 		this.inputComponent.inputEl.focus();
-		this.inputComponent.inputEl.select();
+		//this.inputComponent.inputEl.select();
 	}
 
 	onClose() {
